@@ -43,7 +43,7 @@ let activeNote = {};
   dont need to touch any html or client side js - all work done in server.js
 */
 
-
+// routes to look @ here - know we need pathing from here
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
